@@ -28,6 +28,7 @@ namespace biv {
 
         public:
                 explicit QtUIFactory(Game* game);
+                ~QtUIFactory();
 
                 void clear_data() override;
                 void create_box(

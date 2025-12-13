@@ -6,17 +6,54 @@ QtUIFactory::QtUIFactory(Game* game) : UIFactory(game) {
         create_game_map();
 }
 
+QtUIFactory::~QtUIFactory() {
+        clear_data();
+        delete game_map;
+        game_map = nullptr;
+}
+
 void QtUIFactory::clear_data() {
         game->remove_objs();
-        game_map->remove_objs();
+        if (game_map != nullptr) {
+                game_map->remove_objs();
+        }
+
         delete mario;
         mario = nullptr;
+
+        for (auto* box: boxes) {
+                delete box;
+        }
         boxes.clear();
+
+        for (auto* full_box: full_boxes) {
+                delete full_box;
+        }
         full_boxes.clear();
+
+        for (auto* ship: ships) {
+                delete ship;
+        }
         ships.clear();
+
+        for (auto* enemy: enemies) {
+                delete enemy;
+        }
         enemies.clear();
+
+        for (auto* flying_enemy: flying_enemies) {
+                delete flying_enemy;
+        }
         flying_enemies.clear();
+
+        for (auto* jumping_enemy: jumping_enemies) {
+                delete jumping_enemy;
+        }
         jumping_enemies.clear();
+
+        for (auto* money: moneys) {
+                delete money;
+        }
         moneys.clear();
 }
 

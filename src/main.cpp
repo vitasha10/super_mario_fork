@@ -124,7 +124,12 @@ int main(int argc, char* argv[]) {
 	});
 	timer.start(10);
 
-	return app.exec();
+	int result = app.exec();
+
+	delete game_level;
+	delete ui_factory;
+
+	return result;
 }
 #else
 int main() {
@@ -206,6 +211,10 @@ int main() {
 	);
 	
 	// 6. Завершение
-	
+
+	delete game_level;
+	delete ui_factory;
+
+	return 0;
 }
 #endif
