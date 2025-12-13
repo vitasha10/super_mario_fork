@@ -2,8 +2,6 @@
 
 #include <atomic>
 
-using biv::os::UserInput;
-
 namespace {
         std::atomic<bool> left_pressed{false};
         std::atomic<bool> right_pressed{false};
@@ -11,7 +9,10 @@ namespace {
         std::atomic<bool> exit_pressed{false};
 }
 
-UserInput biv::os::get_user_input() {
+namespace biv {
+namespace os {
+
+UserInput get_user_input() {
         if (exit_pressed.load()) {
                 return UserInput::EXIT;
         } else if (left_pressed.load()) {
@@ -25,7 +26,7 @@ UserInput biv::os::get_user_input() {
         return UserInput::NO_INPUT;
 }
 
-void biv::os::set_input_state(UserInput input, bool pressed) {
+void set_input_state(UserInput input, bool pressed) {
         switch (input) {
                 case UserInput::MAP_LEFT:
                         left_pressed.store(pressed);
@@ -43,3 +44,6 @@ void biv::os::set_input_state(UserInput input, bool pressed) {
                         break;
         }
 }
+
+} // namespace os
+} // namespace biv
