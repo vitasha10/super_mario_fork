@@ -12,6 +12,8 @@
 
 		6. Завершение
 */
+#include "mingw_compat.hpp"
+
 #include <thread>
 
 #include "first_level.hpp"

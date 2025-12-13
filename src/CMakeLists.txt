@@ -10,6 +10,10 @@ set(SOURCES main.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
+if(MINGW)
+        target_sources(${PROJECT_NAME} PRIVATE mingw_compat.cpp)
+endif()
+
 if(BUILD_QT_UI)
         set(CMAKE_AUTOMOC ON)
         set(CMAKE_AUTORCC ON)
