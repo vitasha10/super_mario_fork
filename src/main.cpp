@@ -46,6 +46,7 @@ int main(int argc, char* argv[]) {
 	biv::GameMap* game_map = ui_factory->get_game_map();
 	biv::GameLevel* game_level = new biv::FirstLevel(ui_factory);
 	biv::Mario* mario = ui_factory->get_mario();
+	constexpr int GAME_TICK_MS = 10;
 
 	auto* qt_map = dynamic_cast<biv::QtGameMap*>(game_map);
 	if (qt_map != nullptr && qt_map->widget() != nullptr) {
@@ -122,7 +123,7 @@ int main(int argc, char* argv[]) {
 			app.quit();
 		}
 	});
-	timer.start(10);
+	timer.start(GAME_TICK_MS);
 
 	int result = app.exec();
 

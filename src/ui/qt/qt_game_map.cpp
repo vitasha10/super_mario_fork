@@ -7,7 +7,7 @@
 using biv::QtGameMap;
 
 QtGameMap::QtGameMap(const int height, const int width, QWidget* parent)
-        : GameMap(height, width), scale(6) {
+        : GameMap(height, width), scale(DEFAULT_SCALE) {
         configure_widget(parent);
 }
 

@@ -20,6 +20,8 @@ namespace biv {
                 QtGameMap(const int height, const int width, QWidget* parent = nullptr);
                 ~QtGameMap();
 
+                static constexpr int DEFAULT_SCALE = 6;
+
                 void add_obj(QtUIObject*);
                 void clear() noexcept override;
                 int get_scale() const noexcept;

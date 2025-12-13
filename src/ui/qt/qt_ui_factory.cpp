@@ -114,12 +114,14 @@ void QtUIFactory::create_jumping_enemy(
 void QtUIFactory::create_mario(
         const Coord& top_left, const int width, const int height
 ) {
-        game->remove_collisionable(mario);
-        game->remove_movable(mario);
-        game->remove_mario();
-        game_map->remove_obj(mario);
-        delete mario;
-        mario = nullptr;
+        if (mario != nullptr) {
+                game->remove_collisionable(mario);
+                game->remove_movable(mario);
+                game->remove_mario();
+                game_map->remove_obj(mario);
+                delete mario;
+                mario = nullptr;
+        }
 
         mario = new QtMario(top_left, width, height);
         game->add_collisionable(mario);
