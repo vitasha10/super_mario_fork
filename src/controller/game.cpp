@@ -1,4 +1,5 @@
 #include "game.hpp"
+#include "mingw_compat.hpp"
 
 #include <algorithm>
 
