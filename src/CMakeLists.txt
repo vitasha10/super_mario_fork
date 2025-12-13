@@ -4,7 +4,11 @@ project(super_mario)
 
 SET(CMAKE_CXX_FLAGS "-finput-charset=utf-8 -fexec-charset=utf-8")
 
-option(BUILD_QT_UI "Build Qt-based UI" OFF)
+set(_default_qt_ui OFF)
+if(WIN32)
+        set(_default_qt_ui ON)
+endif()
+option(BUILD_QT_UI "Build Qt-based UI" ${_default_qt_ui})
 
 set(SOURCES main.cpp)
 
