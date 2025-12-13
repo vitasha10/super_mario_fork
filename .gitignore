@@ -6,5 +6,5 @@
 *.ii
 *.s
 *.o
-
+.idea
 build_ninja/
