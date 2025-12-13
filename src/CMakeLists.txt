@@ -14,6 +14,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}"
 
 if(MINGW)
         target_sources(${PROJECT_NAME} PRIVATE mingw_compat.cpp)
+        target_compile_options(${PROJECT_NAME} PRIVATE "-include" "mingw_compat.hpp")
 endif()
 
 if(BUILD_QT_UI)
