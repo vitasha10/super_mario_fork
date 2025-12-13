@@ -26,8 +26,8 @@ void FlyingEnemy::move_vertically() noexcept {
 	}
 }
 
-void FlyingEnemy::process_vertical_static_collision(Rect* obj) noexcept {
-	(void) obj;
+void FlyingEnemy::process_vertical_static_collision(Rect* /*obj*/) noexcept {
+	// Учитываем столкновение только сменой направления полёта.
 	top_left.y -= vspeed;
 	vspeed = -vspeed;
 }
