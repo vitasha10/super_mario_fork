@@ -8,3 +8,5 @@
 *.o
 .idea
 build_ninja/
+_codeql_build_dir/
+src/_codeql_build_dir/
