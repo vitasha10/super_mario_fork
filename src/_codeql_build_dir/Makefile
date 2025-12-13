@@ -540,53 +540,53 @@ objects/money.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/objects/money.cpp.s
 .PHONY : objects/money.cpp.s
 
-os_controls/windows/os_control_settings.o: os_controls/windows/os_control_settings.cpp.o
-.PHONY : os_controls/windows/os_control_settings.o
+os_controls/stub/os_control_settings.o: os_controls/stub/os_control_settings.cpp.o
+.PHONY : os_controls/stub/os_control_settings.o
 
 # target to build an object file
-os_controls/windows/os_control_settings.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.o
-.PHONY : os_controls/windows/os_control_settings.cpp.o
+os_controls/stub/os_control_settings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.o
+.PHONY : os_controls/stub/os_control_settings.cpp.o
 
-os_controls/windows/os_control_settings.i: os_controls/windows/os_control_settings.cpp.i
-.PHONY : os_controls/windows/os_control_settings.i
+os_controls/stub/os_control_settings.i: os_controls/stub/os_control_settings.cpp.i
+.PHONY : os_controls/stub/os_control_settings.i
 
 # target to preprocess a source file
-os_controls/windows/os_control_settings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.i
-.PHONY : os_controls/windows/os_control_settings.cpp.i
+os_controls/stub/os_control_settings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.i
+.PHONY : os_controls/stub/os_control_settings.cpp.i
 
-os_controls/windows/os_control_settings.s: os_controls/windows/os_control_settings.cpp.s
-.PHONY : os_controls/windows/os_control_settings.s
+os_controls/stub/os_control_settings.s: os_controls/stub/os_control_settings.cpp.s
+.PHONY : os_controls/stub/os_control_settings.s
 
 # target to generate assembly for a file
-os_controls/windows/os_control_settings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.s
-.PHONY : os_controls/windows/os_control_settings.cpp.s
+os_controls/stub/os_control_settings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.s
+.PHONY : os_controls/stub/os_control_settings.cpp.s
 
-os_controls/windows/user_input.o: os_controls/windows/user_input.cpp.o
-.PHONY : os_controls/windows/user_input.o
+os_controls/stub/user_input.o: os_controls/stub/user_input.cpp.o
+.PHONY : os_controls/stub/user_input.o
 
 # target to build an object file
-os_controls/windows/user_input.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.o
-.PHONY : os_controls/windows/user_input.cpp.o
+os_controls/stub/user_input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.o
+.PHONY : os_controls/stub/user_input.cpp.o
 
-os_controls/windows/user_input.i: os_controls/windows/user_input.cpp.i
-.PHONY : os_controls/windows/user_input.i
+os_controls/stub/user_input.i: os_controls/stub/user_input.cpp.i
+.PHONY : os_controls/stub/user_input.i
 
 # target to preprocess a source file
-os_controls/windows/user_input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.i
-.PHONY : os_controls/windows/user_input.cpp.i
+os_controls/stub/user_input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.i
+.PHONY : os_controls/stub/user_input.cpp.i
 
-os_controls/windows/user_input.s: os_controls/windows/user_input.cpp.s
-.PHONY : os_controls/windows/user_input.s
+os_controls/stub/user_input.s: os_controls/stub/user_input.cpp.s
+.PHONY : os_controls/stub/user_input.s
 
 # target to generate assembly for a file
-os_controls/windows/user_input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.s
-.PHONY : os_controls/windows/user_input.cpp.s
+os_controls/stub/user_input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.s
+.PHONY : os_controls/stub/user_input.cpp.s
 
 ui/console/console_game_map.o: ui/console/console_game_map.cpp.o
 .PHONY : ui/console/console_game_map.o
@@ -912,12 +912,12 @@ help:
 	@echo "... objects/money.o"
 	@echo "... objects/money.i"
 	@echo "... objects/money.s"
-	@echo "... os_controls/windows/os_control_settings.o"
-	@echo "... os_controls/windows/os_control_settings.i"
-	@echo "... os_controls/windows/os_control_settings.s"
-	@echo "... os_controls/windows/user_input.o"
-	@echo "... os_controls/windows/user_input.i"
-	@echo "... os_controls/windows/user_input.s"
+	@echo "... os_controls/stub/os_control_settings.o"
+	@echo "... os_controls/stub/os_control_settings.i"
+	@echo "... os_controls/stub/os_control_settings.s"
+	@echo "... os_controls/stub/user_input.o"
+	@echo "... os_controls/stub/user_input.i"
+	@echo "... os_controls/stub/user_input.s"
 	@echo "... ui/console/console_game_map.o"
 	@echo "... ui/console/console_game_map.i"
 	@echo "... ui/console/console_game_map.s"

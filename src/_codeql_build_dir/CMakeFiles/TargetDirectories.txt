@@ -5,8 +5,8 @@
 /home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/os_controls/CMakeFiles/rebuild_cache.dir
 /home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/os_controls/os_api/CMakeFiles/edit_cache.dir
 /home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/os_controls/os_api/CMakeFiles/rebuild_cache.dir
-/home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/os_controls/windows/CMakeFiles/edit_cache.dir
-/home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/os_controls/windows/CMakeFiles/rebuild_cache.dir
+/home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/os_controls/stub/CMakeFiles/edit_cache.dir
+/home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/os_controls/stub/CMakeFiles/rebuild_cache.dir
 /home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/controller/CMakeFiles/edit_cache.dir
 /home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/controller/CMakeFiles/rebuild_cache.dir
 /home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/levels/CMakeFiles/edit_cache.dir
