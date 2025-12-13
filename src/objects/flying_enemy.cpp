@@ -13,7 +13,7 @@ FlyingEnemy::FlyingEnemy(
 }
 
 void FlyingEnemy::move_vertically() noexcept {
-	const float min_y = std::max(0.0f, initial_y - amplitude);
+	const float min_y = std::max(MIN_Y, initial_y - amplitude);
 	const float max_y = initial_y + amplitude;
 
 	top_left.y += vspeed;
@@ -28,6 +28,6 @@ void FlyingEnemy::move_vertically() noexcept {
 
 void FlyingEnemy::process_vertical_static_collision(Rect* obj) noexcept {
 	(void) obj;
+	top_left.y -= vspeed;
 	vspeed = -vspeed;
-	move_vertically();
 }

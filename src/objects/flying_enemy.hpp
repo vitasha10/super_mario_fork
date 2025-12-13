@@ -5,6 +5,8 @@
 namespace biv {
 	class FlyingEnemy : public Enemy {
 		private:
+			static constexpr float MIN_Y = 0.0f;
+
 			float initial_y;
 			float amplitude;
 
