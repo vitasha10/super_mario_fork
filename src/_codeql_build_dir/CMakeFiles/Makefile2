@@ -185,22 +185,22 @@ objects/clean:
 
 # Recursive "all" directory target.
 os_controls/all: os_controls/os_api/all
-os_controls/all: os_controls/windows/all
+os_controls/all: os_controls/stub/all
 .PHONY : os_controls/all
 
 # Recursive "codegen" directory target.
 os_controls/codegen: os_controls/os_api/codegen
-os_controls/codegen: os_controls/windows/codegen
+os_controls/codegen: os_controls/stub/codegen
 .PHONY : os_controls/codegen
 
 # Recursive "preinstall" directory target.
 os_controls/preinstall: os_controls/os_api/preinstall
-os_controls/preinstall: os_controls/windows/preinstall
+os_controls/preinstall: os_controls/stub/preinstall
 .PHONY : os_controls/preinstall
 
 # Recursive "clean" directory target.
 os_controls/clean: os_controls/os_api/clean
-os_controls/clean: os_controls/windows/clean
+os_controls/clean: os_controls/stub/clean
 .PHONY : os_controls/clean
 
 #=============================================================================
@@ -223,23 +223,23 @@ os_controls/os_api/clean:
 .PHONY : os_controls/os_api/clean
 
 #=============================================================================
-# Directory level rules for directory os_controls/windows
+# Directory level rules for directory os_controls/stub
 
 # Recursive "all" directory target.
-os_controls/windows/all:
-.PHONY : os_controls/windows/all
+os_controls/stub/all:
+.PHONY : os_controls/stub/all
 
 # Recursive "codegen" directory target.
-os_controls/windows/codegen:
-.PHONY : os_controls/windows/codegen
+os_controls/stub/codegen:
+.PHONY : os_controls/stub/codegen
 
 # Recursive "preinstall" directory target.
-os_controls/windows/preinstall:
-.PHONY : os_controls/windows/preinstall
+os_controls/stub/preinstall:
+.PHONY : os_controls/stub/preinstall
 
 # Recursive "clean" directory target.
-os_controls/windows/clean:
-.PHONY : os_controls/windows/clean
+os_controls/stub/clean:
+.PHONY : os_controls/stub/clean
 
 #=============================================================================
 # Directory level rules for directory ui

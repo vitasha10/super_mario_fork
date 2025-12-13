@@ -89,33 +89,33 @@ CMakeFiles/super_mario.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/super_mario.dir/main.cpp.s"
 	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/super_mario_fork/super_mario_fork/src/main.cpp -o CMakeFiles/super_mario.dir/main.cpp.s
 
-CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.o: CMakeFiles/super_mario.dir/flags.make
-CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.o: /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/windows/os_control_settings.cpp
-CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.o: CMakeFiles/super_mario.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.o"
-	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.o -MF CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.o.d -o CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.o -c /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/windows/os_control_settings.cpp
+CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.o: CMakeFiles/super_mario.dir/flags.make
+CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.o: /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/stub/os_control_settings.cpp
+CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.o: CMakeFiles/super_mario.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.o"
+	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.o -MF CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.o.d -o CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.o -c /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/stub/os_control_settings.cpp
 
-CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.i"
-	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/windows/os_control_settings.cpp > CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.i
+CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.i"
+	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/stub/os_control_settings.cpp > CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.i
 
-CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.s"
-	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/windows/os_control_settings.cpp -o CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.s
+CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.s"
+	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/stub/os_control_settings.cpp -o CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.s
 
-CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.o: CMakeFiles/super_mario.dir/flags.make
-CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.o: /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/windows/user_input.cpp
-CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.o: CMakeFiles/super_mario.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.o"
-	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.o -MF CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.o.d -o CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.o -c /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/windows/user_input.cpp
+CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.o: CMakeFiles/super_mario.dir/flags.make
+CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.o: /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/stub/user_input.cpp
+CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.o: CMakeFiles/super_mario.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.o"
+	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.o -MF CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.o.d -o CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.o -c /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/stub/user_input.cpp
 
-CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.i"
-	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/windows/user_input.cpp > CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.i
+CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.i"
+	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/stub/user_input.cpp > CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.i
 
-CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.s"
-	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/windows/user_input.cpp -o CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.s
+CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.s"
+	/home/runner/work/super_mario_fork/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/super_mario_fork/super_mario_fork/src/os_controls/stub/user_input.cpp -o CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.s
 
 CMakeFiles/super_mario.dir/controller/game.cpp.o: CMakeFiles/super_mario.dir/flags.make
 CMakeFiles/super_mario.dir/controller/game.cpp.o: /home/runner/work/super_mario_fork/super_mario_fork/src/controller/game.cpp
@@ -498,8 +498,8 @@ CMakeFiles/super_mario.dir/ui/console/ui_objects/console_ship.cpp.s: cmake_force
 # Object files for target super_mario
 super_mario_OBJECTS = \
 "CMakeFiles/super_mario.dir/main.cpp.o" \
-"CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.o" \
-"CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.o" \
+"CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.o" \
+"CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.o" \
 "CMakeFiles/super_mario.dir/controller/game.cpp.o" \
 "CMakeFiles/super_mario.dir/levels/first_level.cpp.o" \
 "CMakeFiles/super_mario.dir/levels/game_level.cpp.o" \
@@ -532,8 +532,8 @@ super_mario_OBJECTS = \
 super_mario_EXTERNAL_OBJECTS =
 
 super_mario: CMakeFiles/super_mario.dir/main.cpp.o
-super_mario: CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.o
-super_mario: CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.o
+super_mario: CMakeFiles/super_mario.dir/os_controls/stub/os_control_settings.cpp.o
+super_mario: CMakeFiles/super_mario.dir/os_controls/stub/user_input.cpp.o
 super_mario: CMakeFiles/super_mario.dir/controller/game.cpp.o
 super_mario: CMakeFiles/super_mario.dir/levels/first_level.cpp.o
 super_mario: CMakeFiles/super_mario.dir/levels/game_level.cpp.o

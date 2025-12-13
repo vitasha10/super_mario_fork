@@ -20,6 +20,9 @@ BUILD_DOCS:UNINITIALIZED=OFF
 //No help, variable specified on the command line.
 BUILD_DOCUMENTATION:UNINITIALIZED=OFF
 
+//Build Qt-based UI
+BUILD_QT_UI:BOOL=OFF
+
 //No help, variable specified on the command line.
 CATKIN_ENABLE_TESTING:UNINITIALIZED=OFF
 

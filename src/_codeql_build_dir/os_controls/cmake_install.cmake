@@ -49,7 +49,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/os_controls/windows/cmake_install.cmake")
+  include("/home/runner/work/super_mario_fork/super_mario_fork/src/_codeql_build_dir/os_controls/stub/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
