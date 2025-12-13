@@ -1,7 +1,13 @@
 @echo off
 
-set BUILD_TYPE=Ninja
-set BUILD_SUFFIX=ninja
+REM Qt build script for Super Mario (Qt UI)
+REM Update QT_PATH below to point to your Qt installation root (contains bin folder)
+
+set QT_PATH=C:\msys64\mingw64
+set MINGW_PATH=C:\msys64\mingw64
+
+set BUILD_TYPE="MinGW Makefiles"
+set BUILD_SUFFIX=qt
 
 chcp 65001
 
@@ -12,7 +18,7 @@ if not exist %BUILD_FOLDER% mkdir %BUILD_FOLDER%
 
 cd %BUILD_FOLDER%
 
-cmake -G %BUILD_TYPE% ..\%SOURCE_FOLDER%
+cmake -G %BUILD_TYPE% -DCMAKE_PREFIX_PATH="%QT_PATH%" -DBUILD_QT_UI=ON ..\%SOURCE_FOLDER%
 cmake --build .
 
 cd ..
