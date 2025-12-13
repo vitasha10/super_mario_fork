@@ -2,6 +2,7 @@
 
 #include <vector>
 
+#include "coord.hpp"
 #include "qt_box.hpp"
 #include "qt_enemy.hpp"
 #include "qt_flying_enemy.hpp"

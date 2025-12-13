@@ -1,6 +1,7 @@
 #pragma once
 
 #include "qt_ui_obj.hpp"
+#include "coord.hpp"
 #include "rect.hpp"
 
 namespace biv {

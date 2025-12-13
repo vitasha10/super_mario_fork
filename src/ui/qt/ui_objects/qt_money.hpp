@@ -2,6 +2,7 @@
 
 #include <QColor>
 
+#include "coord.hpp"
 #include "money.hpp"
 #include "qt_ui_obj_rect_adapter.hpp"
 
