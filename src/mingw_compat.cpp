@@ -35,7 +35,7 @@ void __attribute__((weak)) quick_exit(int status) {
         _Exit(status);
 }
 
-extern "C" int nanosleep64(const struct timespec* req, struct timespec* /*rem*/) {
+extern "C" int __attribute__((weak)) __cdecl nanosleep64(const struct timespec* req, struct timespec* /*rem*/) {
         if (req == nullptr) {
                 return -1;
         }
