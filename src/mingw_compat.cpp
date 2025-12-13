@@ -3,9 +3,10 @@
 
 #include <chrono>
 #include <cstdlib>
+#include <windows.h>
 
 extern "C" {
-int timespec_get(struct timespec* ts, int base) {
+int __attribute__((weak)) timespec_get(struct timespec* ts, int base) {
         if (ts == nullptr || base != TIME_UTC) {
                 return 0;
         }
@@ -22,16 +23,30 @@ int timespec_get(struct timespec* ts, int base) {
 
 static void (*g_quick_exit_handler)(void) = nullptr;
 
-int at_quick_exit(void (*func)(void)) {
+int __attribute__((weak)) at_quick_exit(void (*func)(void)) {
         g_quick_exit_handler = func;
         return 0;
 }
 
-void quick_exit(int status) {
+void __attribute__((weak)) quick_exit(int status) {
         if (g_quick_exit_handler != nullptr) {
                 g_quick_exit_handler();
         }
         _Exit(status);
+}
+
+int __attribute__((weak)) nanosleep64(const struct timespec* req, struct timespec* /*rem*/) {
+        if (req == nullptr) {
+                return -1;
+        }
+
+        const LONGLONG millis =
+                static_cast<LONGLONG>(req->tv_sec) * 1000LL +
+                static_cast<LONGLONG>(req->tv_nsec) / 1000000LL;
+        if (millis > 0) {
+                Sleep(static_cast<DWORD>(millis));
+        }
+        return 0;
 }
 }
 #endif
