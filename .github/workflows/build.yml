@@ -1,0 +1,60 @@
+name: Build Super Mario (Windows)
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    defaults:
+      run:
+        shell: msys2 {0}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup MSYS2
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: MINGW64
+          update: true
+          install: >-
+            mingw-w64-x86_64-gcc
+            mingw-w64-x86_64-cmake
+            mingw-w64-x86_64-qt5-base
+            make
+
+      - name: Configure CMake
+        run: |
+          mkdir -p build
+          cd build
+          cmake -G "Unix Makefiles" \
+            -DCMAKE_PREFIX_PATH="/mingw64" \
+            ../src
+
+      - name: Build
+        run: |
+          cd build
+          make -j$(nproc)
+
+      - name: Deploy Qt DLLs
+        run: |
+          cd build
+          windeployqt-qt5 super_mario.exe || windeployqt super_mario.exe || true
+          # Copy essential DLLs manually as fallback
+          cp /mingw64/bin/libgcc_s_seh-1.dll . 2>/dev/null || true
+          cp /mingw64/bin/libstdc++-6.dll . 2>/dev/null || true
+          cp /mingw64/bin/libwinpthread-1.dll . 2>/dev/null || true
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SuperMario-Windows
+          path: build/
+          retention-days: 30
