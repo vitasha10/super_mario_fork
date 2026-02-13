@@ -132,6 +132,32 @@ super_mario/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/build
 .PHONY : super_mario/fast
 
+#=============================================================================
+# Target rules for targets named super_mario_autogen_timestamp_deps
+
+# Build rule for target.
+super_mario_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 super_mario_autogen_timestamp_deps
+.PHONY : super_mario_autogen_timestamp_deps
+
+# fast build rule for target.
+super_mario_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario_autogen_timestamp_deps.dir/build.make CMakeFiles/super_mario_autogen_timestamp_deps.dir/build
+.PHONY : super_mario_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named super_mario_autogen
+
+# Build rule for target.
+super_mario_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 super_mario_autogen
+.PHONY : super_mario_autogen
+
+# fast build rule for target.
+super_mario_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario_autogen.dir/build.make CMakeFiles/super_mario_autogen.dir/build
+.PHONY : super_mario_autogen/fast
+
 controller/game.o: controller/game.cpp.o
 .PHONY : controller/game.o
 
@@ -540,317 +566,317 @@ objects/money.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/objects/money.cpp.s
 .PHONY : objects/money.cpp.s
 
-os_controls/windows/os_control_settings.o: os_controls/windows/os_control_settings.cpp.o
-.PHONY : os_controls/windows/os_control_settings.o
+super_mario_autogen/mocs_compilation.o: super_mario_autogen/mocs_compilation.cpp.o
+.PHONY : super_mario_autogen/mocs_compilation.o
 
 # target to build an object file
-os_controls/windows/os_control_settings.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.o
-.PHONY : os_controls/windows/os_control_settings.cpp.o
+super_mario_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/super_mario_autogen/mocs_compilation.cpp.o
+.PHONY : super_mario_autogen/mocs_compilation.cpp.o
 
-os_controls/windows/os_control_settings.i: os_controls/windows/os_control_settings.cpp.i
-.PHONY : os_controls/windows/os_control_settings.i
+super_mario_autogen/mocs_compilation.i: super_mario_autogen/mocs_compilation.cpp.i
+.PHONY : super_mario_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-os_controls/windows/os_control_settings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.i
-.PHONY : os_controls/windows/os_control_settings.cpp.i
+super_mario_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/super_mario_autogen/mocs_compilation.cpp.i
+.PHONY : super_mario_autogen/mocs_compilation.cpp.i
 
-os_controls/windows/os_control_settings.s: os_controls/windows/os_control_settings.cpp.s
-.PHONY : os_controls/windows/os_control_settings.s
+super_mario_autogen/mocs_compilation.s: super_mario_autogen/mocs_compilation.cpp.s
+.PHONY : super_mario_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-os_controls/windows/os_control_settings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/os_control_settings.cpp.s
-.PHONY : os_controls/windows/os_control_settings.cpp.s
+super_mario_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/super_mario_autogen/mocs_compilation.cpp.s
+.PHONY : super_mario_autogen/mocs_compilation.cpp.s
 
-os_controls/windows/user_input.o: os_controls/windows/user_input.cpp.o
-.PHONY : os_controls/windows/user_input.o
+ui/qt/game_widget.o: ui/qt/game_widget.cpp.o
+.PHONY : ui/qt/game_widget.o
 
 # target to build an object file
-os_controls/windows/user_input.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.o
-.PHONY : os_controls/windows/user_input.cpp.o
+ui/qt/game_widget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/game_widget.cpp.o
+.PHONY : ui/qt/game_widget.cpp.o
 
-os_controls/windows/user_input.i: os_controls/windows/user_input.cpp.i
-.PHONY : os_controls/windows/user_input.i
+ui/qt/game_widget.i: ui/qt/game_widget.cpp.i
+.PHONY : ui/qt/game_widget.i
 
 # target to preprocess a source file
-os_controls/windows/user_input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.i
-.PHONY : os_controls/windows/user_input.cpp.i
+ui/qt/game_widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/game_widget.cpp.i
+.PHONY : ui/qt/game_widget.cpp.i
 
-os_controls/windows/user_input.s: os_controls/windows/user_input.cpp.s
-.PHONY : os_controls/windows/user_input.s
+ui/qt/game_widget.s: ui/qt/game_widget.cpp.s
+.PHONY : ui/qt/game_widget.s
 
 # target to generate assembly for a file
-os_controls/windows/user_input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/os_controls/windows/user_input.cpp.s
-.PHONY : os_controls/windows/user_input.cpp.s
+ui/qt/game_widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/game_widget.cpp.s
+.PHONY : ui/qt/game_widget.cpp.s
 
-ui/console/console_game_map.o: ui/console/console_game_map.cpp.o
-.PHONY : ui/console/console_game_map.o
+ui/qt/qt_game_map.o: ui/qt/qt_game_map.cpp.o
+.PHONY : ui/qt/qt_game_map.o
 
 # target to build an object file
-ui/console/console_game_map.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/console_game_map.cpp.o
-.PHONY : ui/console/console_game_map.cpp.o
+ui/qt/qt_game_map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/qt_game_map.cpp.o
+.PHONY : ui/qt/qt_game_map.cpp.o
 
-ui/console/console_game_map.i: ui/console/console_game_map.cpp.i
-.PHONY : ui/console/console_game_map.i
+ui/qt/qt_game_map.i: ui/qt/qt_game_map.cpp.i
+.PHONY : ui/qt/qt_game_map.i
 
 # target to preprocess a source file
-ui/console/console_game_map.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/console_game_map.cpp.i
-.PHONY : ui/console/console_game_map.cpp.i
+ui/qt/qt_game_map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/qt_game_map.cpp.i
+.PHONY : ui/qt/qt_game_map.cpp.i
 
-ui/console/console_game_map.s: ui/console/console_game_map.cpp.s
-.PHONY : ui/console/console_game_map.s
+ui/qt/qt_game_map.s: ui/qt/qt_game_map.cpp.s
+.PHONY : ui/qt/qt_game_map.s
 
 # target to generate assembly for a file
-ui/console/console_game_map.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/console_game_map.cpp.s
-.PHONY : ui/console/console_game_map.cpp.s
+ui/qt/qt_game_map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/qt_game_map.cpp.s
+.PHONY : ui/qt/qt_game_map.cpp.s
 
-ui/console/console_ui_factory.o: ui/console/console_ui_factory.cpp.o
-.PHONY : ui/console/console_ui_factory.o
+ui/qt/qt_ui_factory.o: ui/qt/qt_ui_factory.cpp.o
+.PHONY : ui/qt/qt_ui_factory.o
 
 # target to build an object file
-ui/console/console_ui_factory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/console_ui_factory.cpp.o
-.PHONY : ui/console/console_ui_factory.cpp.o
+ui/qt/qt_ui_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/qt_ui_factory.cpp.o
+.PHONY : ui/qt/qt_ui_factory.cpp.o
 
-ui/console/console_ui_factory.i: ui/console/console_ui_factory.cpp.i
-.PHONY : ui/console/console_ui_factory.i
+ui/qt/qt_ui_factory.i: ui/qt/qt_ui_factory.cpp.i
+.PHONY : ui/qt/qt_ui_factory.i
 
 # target to preprocess a source file
-ui/console/console_ui_factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/console_ui_factory.cpp.i
-.PHONY : ui/console/console_ui_factory.cpp.i
+ui/qt/qt_ui_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/qt_ui_factory.cpp.i
+.PHONY : ui/qt/qt_ui_factory.cpp.i
 
-ui/console/console_ui_factory.s: ui/console/console_ui_factory.cpp.s
-.PHONY : ui/console/console_ui_factory.s
+ui/qt/qt_ui_factory.s: ui/qt/qt_ui_factory.cpp.s
+.PHONY : ui/qt/qt_ui_factory.s
 
 # target to generate assembly for a file
-ui/console/console_ui_factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/console_ui_factory.cpp.s
-.PHONY : ui/console/console_ui_factory.cpp.s
+ui/qt/qt_ui_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/qt_ui_factory.cpp.s
+.PHONY : ui/qt/qt_ui_factory.cpp.s
 
-ui/console/console_ui_obj_rect_adapter.o: ui/console/console_ui_obj_rect_adapter.cpp.o
-.PHONY : ui/console/console_ui_obj_rect_adapter.o
+ui/qt/qt_ui_obj_rect_adapter.o: ui/qt/qt_ui_obj_rect_adapter.cpp.o
+.PHONY : ui/qt/qt_ui_obj_rect_adapter.o
 
 # target to build an object file
-ui/console/console_ui_obj_rect_adapter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/console_ui_obj_rect_adapter.cpp.o
-.PHONY : ui/console/console_ui_obj_rect_adapter.cpp.o
+ui/qt/qt_ui_obj_rect_adapter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/qt_ui_obj_rect_adapter.cpp.o
+.PHONY : ui/qt/qt_ui_obj_rect_adapter.cpp.o
 
-ui/console/console_ui_obj_rect_adapter.i: ui/console/console_ui_obj_rect_adapter.cpp.i
-.PHONY : ui/console/console_ui_obj_rect_adapter.i
+ui/qt/qt_ui_obj_rect_adapter.i: ui/qt/qt_ui_obj_rect_adapter.cpp.i
+.PHONY : ui/qt/qt_ui_obj_rect_adapter.i
 
 # target to preprocess a source file
-ui/console/console_ui_obj_rect_adapter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/console_ui_obj_rect_adapter.cpp.i
-.PHONY : ui/console/console_ui_obj_rect_adapter.cpp.i
+ui/qt/qt_ui_obj_rect_adapter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/qt_ui_obj_rect_adapter.cpp.i
+.PHONY : ui/qt/qt_ui_obj_rect_adapter.cpp.i
 
-ui/console/console_ui_obj_rect_adapter.s: ui/console/console_ui_obj_rect_adapter.cpp.s
-.PHONY : ui/console/console_ui_obj_rect_adapter.s
+ui/qt/qt_ui_obj_rect_adapter.s: ui/qt/qt_ui_obj_rect_adapter.cpp.s
+.PHONY : ui/qt/qt_ui_obj_rect_adapter.s
 
 # target to generate assembly for a file
-ui/console/console_ui_obj_rect_adapter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/console_ui_obj_rect_adapter.cpp.s
-.PHONY : ui/console/console_ui_obj_rect_adapter.cpp.s
+ui/qt/qt_ui_obj_rect_adapter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/qt_ui_obj_rect_adapter.cpp.s
+.PHONY : ui/qt/qt_ui_obj_rect_adapter.cpp.s
 
-ui/console/ui_objects/console_box.o: ui/console/ui_objects/console_box.cpp.o
-.PHONY : ui/console/ui_objects/console_box.o
+ui/qt/ui_objects/qt_box.o: ui/qt/ui_objects/qt_box.cpp.o
+.PHONY : ui/qt/ui_objects/qt_box.o
 
 # target to build an object file
-ui/console/ui_objects/console_box.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_box.cpp.o
-.PHONY : ui/console/ui_objects/console_box.cpp.o
+ui/qt/ui_objects/qt_box.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_box.cpp.o
+.PHONY : ui/qt/ui_objects/qt_box.cpp.o
 
-ui/console/ui_objects/console_box.i: ui/console/ui_objects/console_box.cpp.i
-.PHONY : ui/console/ui_objects/console_box.i
+ui/qt/ui_objects/qt_box.i: ui/qt/ui_objects/qt_box.cpp.i
+.PHONY : ui/qt/ui_objects/qt_box.i
 
 # target to preprocess a source file
-ui/console/ui_objects/console_box.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_box.cpp.i
-.PHONY : ui/console/ui_objects/console_box.cpp.i
+ui/qt/ui_objects/qt_box.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_box.cpp.i
+.PHONY : ui/qt/ui_objects/qt_box.cpp.i
 
-ui/console/ui_objects/console_box.s: ui/console/ui_objects/console_box.cpp.s
-.PHONY : ui/console/ui_objects/console_box.s
+ui/qt/ui_objects/qt_box.s: ui/qt/ui_objects/qt_box.cpp.s
+.PHONY : ui/qt/ui_objects/qt_box.s
 
 # target to generate assembly for a file
-ui/console/ui_objects/console_box.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_box.cpp.s
-.PHONY : ui/console/ui_objects/console_box.cpp.s
+ui/qt/ui_objects/qt_box.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_box.cpp.s
+.PHONY : ui/qt/ui_objects/qt_box.cpp.s
 
-ui/console/ui_objects/console_enemy.o: ui/console/ui_objects/console_enemy.cpp.o
-.PHONY : ui/console/ui_objects/console_enemy.o
+ui/qt/ui_objects/qt_enemy.o: ui/qt/ui_objects/qt_enemy.cpp.o
+.PHONY : ui/qt/ui_objects/qt_enemy.o
 
 # target to build an object file
-ui/console/ui_objects/console_enemy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_enemy.cpp.o
-.PHONY : ui/console/ui_objects/console_enemy.cpp.o
+ui/qt/ui_objects/qt_enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_enemy.cpp.o
+.PHONY : ui/qt/ui_objects/qt_enemy.cpp.o
 
-ui/console/ui_objects/console_enemy.i: ui/console/ui_objects/console_enemy.cpp.i
-.PHONY : ui/console/ui_objects/console_enemy.i
+ui/qt/ui_objects/qt_enemy.i: ui/qt/ui_objects/qt_enemy.cpp.i
+.PHONY : ui/qt/ui_objects/qt_enemy.i
 
 # target to preprocess a source file
-ui/console/ui_objects/console_enemy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_enemy.cpp.i
-.PHONY : ui/console/ui_objects/console_enemy.cpp.i
+ui/qt/ui_objects/qt_enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_enemy.cpp.i
+.PHONY : ui/qt/ui_objects/qt_enemy.cpp.i
 
-ui/console/ui_objects/console_enemy.s: ui/console/ui_objects/console_enemy.cpp.s
-.PHONY : ui/console/ui_objects/console_enemy.s
+ui/qt/ui_objects/qt_enemy.s: ui/qt/ui_objects/qt_enemy.cpp.s
+.PHONY : ui/qt/ui_objects/qt_enemy.s
 
 # target to generate assembly for a file
-ui/console/ui_objects/console_enemy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_enemy.cpp.s
-.PHONY : ui/console/ui_objects/console_enemy.cpp.s
+ui/qt/ui_objects/qt_enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_enemy.cpp.s
+.PHONY : ui/qt/ui_objects/qt_enemy.cpp.s
 
-ui/console/ui_objects/console_flying_enemy.o: ui/console/ui_objects/console_flying_enemy.cpp.o
-.PHONY : ui/console/ui_objects/console_flying_enemy.o
+ui/qt/ui_objects/qt_flying_enemy.o: ui/qt/ui_objects/qt_flying_enemy.cpp.o
+.PHONY : ui/qt/ui_objects/qt_flying_enemy.o
 
 # target to build an object file
-ui/console/ui_objects/console_flying_enemy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_flying_enemy.cpp.o
-.PHONY : ui/console/ui_objects/console_flying_enemy.cpp.o
+ui/qt/ui_objects/qt_flying_enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_flying_enemy.cpp.o
+.PHONY : ui/qt/ui_objects/qt_flying_enemy.cpp.o
 
-ui/console/ui_objects/console_flying_enemy.i: ui/console/ui_objects/console_flying_enemy.cpp.i
-.PHONY : ui/console/ui_objects/console_flying_enemy.i
+ui/qt/ui_objects/qt_flying_enemy.i: ui/qt/ui_objects/qt_flying_enemy.cpp.i
+.PHONY : ui/qt/ui_objects/qt_flying_enemy.i
 
 # target to preprocess a source file
-ui/console/ui_objects/console_flying_enemy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_flying_enemy.cpp.i
-.PHONY : ui/console/ui_objects/console_flying_enemy.cpp.i
+ui/qt/ui_objects/qt_flying_enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_flying_enemy.cpp.i
+.PHONY : ui/qt/ui_objects/qt_flying_enemy.cpp.i
 
-ui/console/ui_objects/console_flying_enemy.s: ui/console/ui_objects/console_flying_enemy.cpp.s
-.PHONY : ui/console/ui_objects/console_flying_enemy.s
+ui/qt/ui_objects/qt_flying_enemy.s: ui/qt/ui_objects/qt_flying_enemy.cpp.s
+.PHONY : ui/qt/ui_objects/qt_flying_enemy.s
 
 # target to generate assembly for a file
-ui/console/ui_objects/console_flying_enemy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_flying_enemy.cpp.s
-.PHONY : ui/console/ui_objects/console_flying_enemy.cpp.s
+ui/qt/ui_objects/qt_flying_enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_flying_enemy.cpp.s
+.PHONY : ui/qt/ui_objects/qt_flying_enemy.cpp.s
 
-ui/console/ui_objects/console_full_box.o: ui/console/ui_objects/console_full_box.cpp.o
-.PHONY : ui/console/ui_objects/console_full_box.o
+ui/qt/ui_objects/qt_full_box.o: ui/qt/ui_objects/qt_full_box.cpp.o
+.PHONY : ui/qt/ui_objects/qt_full_box.o
 
 # target to build an object file
-ui/console/ui_objects/console_full_box.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_full_box.cpp.o
-.PHONY : ui/console/ui_objects/console_full_box.cpp.o
+ui/qt/ui_objects/qt_full_box.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_full_box.cpp.o
+.PHONY : ui/qt/ui_objects/qt_full_box.cpp.o
 
-ui/console/ui_objects/console_full_box.i: ui/console/ui_objects/console_full_box.cpp.i
-.PHONY : ui/console/ui_objects/console_full_box.i
+ui/qt/ui_objects/qt_full_box.i: ui/qt/ui_objects/qt_full_box.cpp.i
+.PHONY : ui/qt/ui_objects/qt_full_box.i
 
 # target to preprocess a source file
-ui/console/ui_objects/console_full_box.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_full_box.cpp.i
-.PHONY : ui/console/ui_objects/console_full_box.cpp.i
+ui/qt/ui_objects/qt_full_box.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_full_box.cpp.i
+.PHONY : ui/qt/ui_objects/qt_full_box.cpp.i
 
-ui/console/ui_objects/console_full_box.s: ui/console/ui_objects/console_full_box.cpp.s
-.PHONY : ui/console/ui_objects/console_full_box.s
+ui/qt/ui_objects/qt_full_box.s: ui/qt/ui_objects/qt_full_box.cpp.s
+.PHONY : ui/qt/ui_objects/qt_full_box.s
 
 # target to generate assembly for a file
-ui/console/ui_objects/console_full_box.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_full_box.cpp.s
-.PHONY : ui/console/ui_objects/console_full_box.cpp.s
+ui/qt/ui_objects/qt_full_box.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_full_box.cpp.s
+.PHONY : ui/qt/ui_objects/qt_full_box.cpp.s
 
-ui/console/ui_objects/console_jumping_enemy.o: ui/console/ui_objects/console_jumping_enemy.cpp.o
-.PHONY : ui/console/ui_objects/console_jumping_enemy.o
+ui/qt/ui_objects/qt_jumping_enemy.o: ui/qt/ui_objects/qt_jumping_enemy.cpp.o
+.PHONY : ui/qt/ui_objects/qt_jumping_enemy.o
 
 # target to build an object file
-ui/console/ui_objects/console_jumping_enemy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_jumping_enemy.cpp.o
-.PHONY : ui/console/ui_objects/console_jumping_enemy.cpp.o
+ui/qt/ui_objects/qt_jumping_enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_jumping_enemy.cpp.o
+.PHONY : ui/qt/ui_objects/qt_jumping_enemy.cpp.o
 
-ui/console/ui_objects/console_jumping_enemy.i: ui/console/ui_objects/console_jumping_enemy.cpp.i
-.PHONY : ui/console/ui_objects/console_jumping_enemy.i
+ui/qt/ui_objects/qt_jumping_enemy.i: ui/qt/ui_objects/qt_jumping_enemy.cpp.i
+.PHONY : ui/qt/ui_objects/qt_jumping_enemy.i
 
 # target to preprocess a source file
-ui/console/ui_objects/console_jumping_enemy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_jumping_enemy.cpp.i
-.PHONY : ui/console/ui_objects/console_jumping_enemy.cpp.i
+ui/qt/ui_objects/qt_jumping_enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_jumping_enemy.cpp.i
+.PHONY : ui/qt/ui_objects/qt_jumping_enemy.cpp.i
 
-ui/console/ui_objects/console_jumping_enemy.s: ui/console/ui_objects/console_jumping_enemy.cpp.s
-.PHONY : ui/console/ui_objects/console_jumping_enemy.s
+ui/qt/ui_objects/qt_jumping_enemy.s: ui/qt/ui_objects/qt_jumping_enemy.cpp.s
+.PHONY : ui/qt/ui_objects/qt_jumping_enemy.s
 
 # target to generate assembly for a file
-ui/console/ui_objects/console_jumping_enemy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_jumping_enemy.cpp.s
-.PHONY : ui/console/ui_objects/console_jumping_enemy.cpp.s
+ui/qt/ui_objects/qt_jumping_enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_jumping_enemy.cpp.s
+.PHONY : ui/qt/ui_objects/qt_jumping_enemy.cpp.s
 
-ui/console/ui_objects/console_mario.o: ui/console/ui_objects/console_mario.cpp.o
-.PHONY : ui/console/ui_objects/console_mario.o
+ui/qt/ui_objects/qt_mario.o: ui/qt/ui_objects/qt_mario.cpp.o
+.PHONY : ui/qt/ui_objects/qt_mario.o
 
 # target to build an object file
-ui/console/ui_objects/console_mario.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_mario.cpp.o
-.PHONY : ui/console/ui_objects/console_mario.cpp.o
+ui/qt/ui_objects/qt_mario.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_mario.cpp.o
+.PHONY : ui/qt/ui_objects/qt_mario.cpp.o
 
-ui/console/ui_objects/console_mario.i: ui/console/ui_objects/console_mario.cpp.i
-.PHONY : ui/console/ui_objects/console_mario.i
+ui/qt/ui_objects/qt_mario.i: ui/qt/ui_objects/qt_mario.cpp.i
+.PHONY : ui/qt/ui_objects/qt_mario.i
 
 # target to preprocess a source file
-ui/console/ui_objects/console_mario.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_mario.cpp.i
-.PHONY : ui/console/ui_objects/console_mario.cpp.i
+ui/qt/ui_objects/qt_mario.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_mario.cpp.i
+.PHONY : ui/qt/ui_objects/qt_mario.cpp.i
 
-ui/console/ui_objects/console_mario.s: ui/console/ui_objects/console_mario.cpp.s
-.PHONY : ui/console/ui_objects/console_mario.s
+ui/qt/ui_objects/qt_mario.s: ui/qt/ui_objects/qt_mario.cpp.s
+.PHONY : ui/qt/ui_objects/qt_mario.s
 
 # target to generate assembly for a file
-ui/console/ui_objects/console_mario.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_mario.cpp.s
-.PHONY : ui/console/ui_objects/console_mario.cpp.s
+ui/qt/ui_objects/qt_mario.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_mario.cpp.s
+.PHONY : ui/qt/ui_objects/qt_mario.cpp.s
 
-ui/console/ui_objects/console_money.o: ui/console/ui_objects/console_money.cpp.o
-.PHONY : ui/console/ui_objects/console_money.o
+ui/qt/ui_objects/qt_money.o: ui/qt/ui_objects/qt_money.cpp.o
+.PHONY : ui/qt/ui_objects/qt_money.o
 
 # target to build an object file
-ui/console/ui_objects/console_money.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_money.cpp.o
-.PHONY : ui/console/ui_objects/console_money.cpp.o
+ui/qt/ui_objects/qt_money.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_money.cpp.o
+.PHONY : ui/qt/ui_objects/qt_money.cpp.o
 
-ui/console/ui_objects/console_money.i: ui/console/ui_objects/console_money.cpp.i
-.PHONY : ui/console/ui_objects/console_money.i
+ui/qt/ui_objects/qt_money.i: ui/qt/ui_objects/qt_money.cpp.i
+.PHONY : ui/qt/ui_objects/qt_money.i
 
 # target to preprocess a source file
-ui/console/ui_objects/console_money.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_money.cpp.i
-.PHONY : ui/console/ui_objects/console_money.cpp.i
+ui/qt/ui_objects/qt_money.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_money.cpp.i
+.PHONY : ui/qt/ui_objects/qt_money.cpp.i
 
-ui/console/ui_objects/console_money.s: ui/console/ui_objects/console_money.cpp.s
-.PHONY : ui/console/ui_objects/console_money.s
+ui/qt/ui_objects/qt_money.s: ui/qt/ui_objects/qt_money.cpp.s
+.PHONY : ui/qt/ui_objects/qt_money.s
 
 # target to generate assembly for a file
-ui/console/ui_objects/console_money.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_money.cpp.s
-.PHONY : ui/console/ui_objects/console_money.cpp.s
+ui/qt/ui_objects/qt_money.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_money.cpp.s
+.PHONY : ui/qt/ui_objects/qt_money.cpp.s
 
-ui/console/ui_objects/console_ship.o: ui/console/ui_objects/console_ship.cpp.o
-.PHONY : ui/console/ui_objects/console_ship.o
+ui/qt/ui_objects/qt_ship.o: ui/qt/ui_objects/qt_ship.cpp.o
+.PHONY : ui/qt/ui_objects/qt_ship.o
 
 # target to build an object file
-ui/console/ui_objects/console_ship.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_ship.cpp.o
-.PHONY : ui/console/ui_objects/console_ship.cpp.o
+ui/qt/ui_objects/qt_ship.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_ship.cpp.o
+.PHONY : ui/qt/ui_objects/qt_ship.cpp.o
 
-ui/console/ui_objects/console_ship.i: ui/console/ui_objects/console_ship.cpp.i
-.PHONY : ui/console/ui_objects/console_ship.i
+ui/qt/ui_objects/qt_ship.i: ui/qt/ui_objects/qt_ship.cpp.i
+.PHONY : ui/qt/ui_objects/qt_ship.i
 
 # target to preprocess a source file
-ui/console/ui_objects/console_ship.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_ship.cpp.i
-.PHONY : ui/console/ui_objects/console_ship.cpp.i
+ui/qt/ui_objects/qt_ship.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_ship.cpp.i
+.PHONY : ui/qt/ui_objects/qt_ship.cpp.i
 
-ui/console/ui_objects/console_ship.s: ui/console/ui_objects/console_ship.cpp.s
-.PHONY : ui/console/ui_objects/console_ship.s
+ui/qt/ui_objects/qt_ship.s: ui/qt/ui_objects/qt_ship.cpp.s
+.PHONY : ui/qt/ui_objects/qt_ship.s
 
 # target to generate assembly for a file
-ui/console/ui_objects/console_ship.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/console/ui_objects/console_ship.cpp.s
-.PHONY : ui/console/ui_objects/console_ship.cpp.s
+ui/qt/ui_objects/qt_ship.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/super_mario.dir/build.make CMakeFiles/super_mario.dir/ui/qt/ui_objects/qt_ship.cpp.s
+.PHONY : ui/qt/ui_objects/qt_ship.cpp.s
 
 # Help Target
 help:
@@ -860,6 +886,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... super_mario_autogen"
+	@echo "... super_mario_autogen_timestamp_deps"
 	@echo "... super_mario"
 	@echo "... controller/game.o"
 	@echo "... controller/game.i"
@@ -912,45 +940,45 @@ help:
 	@echo "... objects/money.o"
 	@echo "... objects/money.i"
 	@echo "... objects/money.s"
-	@echo "... os_controls/windows/os_control_settings.o"
-	@echo "... os_controls/windows/os_control_settings.i"
-	@echo "... os_controls/windows/os_control_settings.s"
-	@echo "... os_controls/windows/user_input.o"
-	@echo "... os_controls/windows/user_input.i"
-	@echo "... os_controls/windows/user_input.s"
-	@echo "... ui/console/console_game_map.o"
-	@echo "... ui/console/console_game_map.i"
-	@echo "... ui/console/console_game_map.s"
-	@echo "... ui/console/console_ui_factory.o"
-	@echo "... ui/console/console_ui_factory.i"
-	@echo "... ui/console/console_ui_factory.s"
-	@echo "... ui/console/console_ui_obj_rect_adapter.o"
-	@echo "... ui/console/console_ui_obj_rect_adapter.i"
-	@echo "... ui/console/console_ui_obj_rect_adapter.s"
-	@echo "... ui/console/ui_objects/console_box.o"
-	@echo "... ui/console/ui_objects/console_box.i"
-	@echo "... ui/console/ui_objects/console_box.s"
-	@echo "... ui/console/ui_objects/console_enemy.o"
-	@echo "... ui/console/ui_objects/console_enemy.i"
-	@echo "... ui/console/ui_objects/console_enemy.s"
-	@echo "... ui/console/ui_objects/console_flying_enemy.o"
-	@echo "... ui/console/ui_objects/console_flying_enemy.i"
-	@echo "... ui/console/ui_objects/console_flying_enemy.s"
-	@echo "... ui/console/ui_objects/console_full_box.o"
-	@echo "... ui/console/ui_objects/console_full_box.i"
-	@echo "... ui/console/ui_objects/console_full_box.s"
-	@echo "... ui/console/ui_objects/console_jumping_enemy.o"
-	@echo "... ui/console/ui_objects/console_jumping_enemy.i"
-	@echo "... ui/console/ui_objects/console_jumping_enemy.s"
-	@echo "... ui/console/ui_objects/console_mario.o"
-	@echo "... ui/console/ui_objects/console_mario.i"
-	@echo "... ui/console/ui_objects/console_mario.s"
-	@echo "... ui/console/ui_objects/console_money.o"
-	@echo "... ui/console/ui_objects/console_money.i"
-	@echo "... ui/console/ui_objects/console_money.s"
-	@echo "... ui/console/ui_objects/console_ship.o"
-	@echo "... ui/console/ui_objects/console_ship.i"
-	@echo "... ui/console/ui_objects/console_ship.s"
+	@echo "... super_mario_autogen/mocs_compilation.o"
+	@echo "... super_mario_autogen/mocs_compilation.i"
+	@echo "... super_mario_autogen/mocs_compilation.s"
+	@echo "... ui/qt/game_widget.o"
+	@echo "... ui/qt/game_widget.i"
+	@echo "... ui/qt/game_widget.s"
+	@echo "... ui/qt/qt_game_map.o"
+	@echo "... ui/qt/qt_game_map.i"
+	@echo "... ui/qt/qt_game_map.s"
+	@echo "... ui/qt/qt_ui_factory.o"
+	@echo "... ui/qt/qt_ui_factory.i"
+	@echo "... ui/qt/qt_ui_factory.s"
+	@echo "... ui/qt/qt_ui_obj_rect_adapter.o"
+	@echo "... ui/qt/qt_ui_obj_rect_adapter.i"
+	@echo "... ui/qt/qt_ui_obj_rect_adapter.s"
+	@echo "... ui/qt/ui_objects/qt_box.o"
+	@echo "... ui/qt/ui_objects/qt_box.i"
+	@echo "... ui/qt/ui_objects/qt_box.s"
+	@echo "... ui/qt/ui_objects/qt_enemy.o"
+	@echo "... ui/qt/ui_objects/qt_enemy.i"
+	@echo "... ui/qt/ui_objects/qt_enemy.s"
+	@echo "... ui/qt/ui_objects/qt_flying_enemy.o"
+	@echo "... ui/qt/ui_objects/qt_flying_enemy.i"
+	@echo "... ui/qt/ui_objects/qt_flying_enemy.s"
+	@echo "... ui/qt/ui_objects/qt_full_box.o"
+	@echo "... ui/qt/ui_objects/qt_full_box.i"
+	@echo "... ui/qt/ui_objects/qt_full_box.s"
+	@echo "... ui/qt/ui_objects/qt_jumping_enemy.o"
+	@echo "... ui/qt/ui_objects/qt_jumping_enemy.i"
+	@echo "... ui/qt/ui_objects/qt_jumping_enemy.s"
+	@echo "... ui/qt/ui_objects/qt_mario.o"
+	@echo "... ui/qt/ui_objects/qt_mario.i"
+	@echo "... ui/qt/ui_objects/qt_mario.s"
+	@echo "... ui/qt/ui_objects/qt_money.o"
+	@echo "... ui/qt/ui_objects/qt_money.i"
+	@echo "... ui/qt/ui_objects/qt_money.s"
+	@echo "... ui/qt/ui_objects/qt_ship.o"
+	@echo "... ui/qt/ui_objects/qt_ship.i"
+	@echo "... ui/qt/ui_objects/qt_ship.s"
 .PHONY : help
 
 
